@@ -46,16 +46,16 @@ body {
 }
 
 .section {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
-.container {
+/* .container {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* outline: 2px solid red; */
-}
+  
+} */
 
 .list {
   list-style: none;
@@ -81,7 +81,7 @@ body {
 
 /**---------------- header ----------------**/
 
-.page-header {
+/* .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid var(--cornflower-accent);
@@ -170,11 +170,11 @@ body {
 .header-mailtel:hover,
 .header-mailtel:focus {
   color: var(--ocean-pressed-state);
-}
+} */
 
 /**--------------- hero ---------------**/
 
-.hero {
+/* .hero {
   max-width: 1440px;
   background-color: var(--grey-hero-background);
   background-image: linear-gradient(
@@ -229,7 +229,7 @@ body {
 
 /**------------ advantage -----------------**/
 
-.advantage {
+/* .advantage {
   padding-bottom: 0;
 }
 
@@ -366,10 +366,11 @@ body {
 .team-soc-link:focus {
   background-color: var(--ocean-pressed-state);
 }
+*/
 
 /**------------- customers------------- **/
 
-.customers-title {
+/* .customers-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -566,10 +567,11 @@ body {
   fill: var(--text-white-background);
   margin-left: 16px;
 }
+*/
 
 /**------------------ Modal ---------------------**/
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -769,11 +771,11 @@ body {
 .modal-send-btn:hover,
 .modal-send-btn:focus {
   background-color: var(--ocean-pressed-state);
-}
+} */
 
 /**--------------- Portfolio.html ---------------**/
 
-.project-box {
+/* .project-box {
   padding-top: 96px;
   padding-bottom: 120px;
 }
@@ -881,7 +883,7 @@ body {
   background-color: var(--iris-primary-brand);
   transition: transform var(--timing-function);
   transform: translateY(100%);
-}
+}  */
 
 .project-link:hover .ovarlay,
 .project-link:focus .ovarlay {
