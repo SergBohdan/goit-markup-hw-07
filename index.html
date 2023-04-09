@@ -40,7 +40,7 @@
             </li>
           </ul>
         </nav>
-        <button type="button" class="mobile-menu-open">
+        <button type="button" class="mobile-menu-open js-open-menu">
           <svg class="mobile-menu-open_icon" width="32" height="22">
             <use href="./images/icons.svg#icon-burger"></use>
           </svg>
@@ -59,6 +59,68 @@
             </li>
           </ul>
         </address>
+      </div>
+      <div class="mobile-menu js-menu-container">
+        <button class="mobile-menu-close js-close-menu">
+          <svg class="mobile-menu-close_icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-modal-close"></use>
+          </svg>
+        </button>
+        <ul class="mobile-list list">
+          <li class="mobile-item">
+            <a class="mobile-link link current" href="./index.html">Studio</a>
+          </li>
+          <li class="mobile-item">
+            <a class="mobile-link link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="mobile-item">
+            <a class="mobile-link link" href="">Contacts</a>
+          </li>
+        </ul>
+        <div class="mobile-menu-contacts">
+          <ul class="mobile-address-list list">
+            <li class="mobile-address-item">
+              <a class="mobile-tel link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mobile-address-item">
+              <a class="mobile-email link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="mobile-soc-list list">
+            <li class="mobile-soc-item">
+              <a href="" class="mobile-soc-link link">
+                <svg width="24" height="24" class="mobile-soc-icon">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-soc-item">
+              <a href="" class="mobile-soc-link link">
+                <svg width="24" height="24" class="mobile-soc-icon">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-soc-item">
+              <a href="" class="mobile-soc-link link">
+                <svg width="24" height="24" class="mobile-soc-icon">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-soc-item">
+              <a href="" class="mobile-soc-link link">
+                <svg width="24" height="24" class="mobile-soc-icon">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -136,7 +198,7 @@
 
       <!-- technology examples -->
 
-    <section class="section examples">
+    <!-- <section class="section examples">
       <div class="container">
         <h2 class="examples-top-title">What are we doing</h2>
         <ul class="examples-list list">
@@ -166,8 +228,7 @@
           </li>
         </ul>
       </div>
-    </section>
-    -->
+    </section> -->
 
     <!-- our team -->
 
@@ -552,5 +613,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script> -->
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
