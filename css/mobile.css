@@ -208,3 +208,161 @@
   width: 24px;
   height: 24px;
 }
+
+.hero {
+  background-color: var(--title-text-color);
+  text-align: center;
+  padding-top: 112px;
+  padding-bottom: 112px;
+  height: 432px;
+  max-width: 428px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-image-mobile.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-title {
+  color: var(--text-white-background);
+  font-size: 36px;
+  line-height: 1.11;
+  margin-top: 0;
+  margin-bottom: 72px;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-btn {
+  color: var(--text-white-background);
+  background-color: var(--iris-primary-brand);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 16px 32px;
+  min-width: 169px;
+  text-align: center;
+  border: none;
+  transition: background-color var(--timing-function);
+  outline: none;
+}
+.advantage-soc-icon {
+  display: none;
+}
+
+.advantage {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.advantage-list .advantage-title {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: var(--navy-blue-dark);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+}
+.advantage-list .advantage-soc-item:not(:last-child) {
+  margin-bottom: 72px;
+}
+.advantage-list p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.mobile-hidden {
+  display: none;
+}
+
+.team-top-title {
+  text-align: center;
+  margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 0;
+}
+
+.team .team-item {
+  width: 264px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--text-white-background);
+  min-width: 264px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.team .team-item:not(:last-child) {
+  margin-bottom: 72px;
+}
+
+.team {
+  background-color: var(--cloud-light);
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.team .list {
+  display: block;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team-container {
+  padding: 32px 16px;
+}
+.team-container .team-title {
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+.team .team-soc-list {
+  display: flex;
+  gap: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  list-style: none;
+  outline: none;
+}
+
+.team-soc-link {
+  background-color: var(--iris-primary-brand);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: block;
+  transition: background-color var(--timing-function);
+}
+
+.team-soc-link:hover,
+.team-soc-link:focus {
+  background-color: var(--ocean-pressed-state);
+}
+
+.team-soc-icon {
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
