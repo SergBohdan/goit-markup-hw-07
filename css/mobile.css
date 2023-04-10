@@ -288,16 +288,6 @@
   display: none;
 }
 
-.team-top-title {
-  text-align: center;
-  margin-bottom: 72px;
-  font-size: 36px;
-  line-height: 1.1;
-  text-align: center;
-  text-transform: capitalize;
-  margin-top: 0;
-}
-
 .team .team-item {
   width: 264px;
   margin-left: auto;
@@ -365,4 +355,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.team-top-title {
+  text-align: center;
+  margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 0;
 }
