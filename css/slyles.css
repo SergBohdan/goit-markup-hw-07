@@ -43,6 +43,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--slate-text);
   letter-spacing: 0.02em;
+  font-size: 16px;
 }
 
 .section {
@@ -270,7 +271,7 @@ body {
 
 /**--------------- examples ------------**/
 
-.examples-top-title {
+/* .examples-top-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -287,11 +288,11 @@ body {
 
 .examples-item {
   flex-basis: calc((100% - 48px) / 3);
-}
+} */
 
 /**---------------- team ------------------**/
 
-.team {
+/* .team {
   background-color: var(--cloud-light);
   margin: 0 auto;
 }
@@ -365,8 +366,7 @@ body {
 .team-soc-link:hover,
 .team-soc-link:focus {
   background-color: var(--ocean-pressed-state);
-}
-*/
+} */
 
 /**------------- customers------------- **/
 
@@ -420,7 +420,7 @@ body {
 
 /**------------- footer ---------------**/
 
-.footer {
+/* .footer {
   background-color: var(--grey-hero-background);
 }
 
@@ -566,8 +566,7 @@ body {
   height: 24px;
   fill: var(--text-white-background);
   margin-left: 16px;
-}
-*/
+} */
 
 /**------------------ Modal ---------------------**/
 
