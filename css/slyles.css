@@ -774,7 +774,7 @@ body {
 
 /**--------------- Portfolio.html ---------------**/
 
-/* .project-box {
+.project-box {
   padding-top: 96px;
   padding-bottom: 120px;
 }
@@ -882,7 +882,7 @@ body {
   background-color: var(--iris-primary-brand);
   transition: transform var(--timing-function);
   transform: translateY(100%);
-}  */
+}
 
 .project-link:hover .ovarlay,
 .project-link:focus .ovarlay {

@@ -249,6 +249,11 @@
   outline: none;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--ocean-pressed-state);
+}
+
 .advantage-soc-icon {
   display: none;
 }
@@ -266,20 +271,25 @@
   line-height: 1.1;
   text-align: center;
 }
-.advantage-list .advantage-soc-item:not(:last-child) {
-  margin-bottom: 72px;
-}
+
 .advantage-list p {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+.advantage-soc-item {
+  margin-bottom: 72px;
+}
+
+/* .advantage-list .advantage-soc-item:not(:last-child) {
+  margin-bottom: 0;
+} */
 
 .mobile-hidden {
   display: none;
 }
 
 .team .team-item {
-  width: 264px;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--text-white-background);
@@ -298,7 +308,7 @@
   padding-bottom: 96px;
 }
 
-.team .list {
+.team .team-list {
   display: block;
   gap: 24px;
   padding: 0;
@@ -318,6 +328,8 @@
 
 .team .team-soc-list {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 24px;
   margin-left: auto;
   margin-right: auto;
@@ -558,6 +570,7 @@
 
 .mailing-input {
   width: 100%;
+  height: 40px;
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -607,7 +620,7 @@
 
 .mailing-send-btn:hover,
 .mailing-send-btn:focus {
-  background-color: var(--navy-blue-dark);
+  background-color: var(--ocean-pressed-state);
 }
 .mailing-btn-icon {
   width: 24px;
