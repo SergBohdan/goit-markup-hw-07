@@ -261,12 +261,8 @@
     min-width: 453px;
   }
 
-  .mailing-input {
-    width: 100%;
-  }
-
-  .mailing-send-btn {
-    margin-left: 24px;
+  .mailing-form {
+    display: flex;
   }
 
   .mailing-input::placeholder {
